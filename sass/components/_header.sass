@@ -1,0 +1,106 @@
+.header
+    background-color: #262626
+    height: 40px
+    &-box
+        display: flex
+        justify-content: space-between
+    &-socials,
+    &-links
+        display: flex
+        padding: 8px 0
+
+.instagram
+    background: url(../img/insta.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    width: 20px
+    height: 20px
+
+.telegram
+    background: url(../img/telegram.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    width: 20px
+    height: 20px    
+    margin-left: 25px
+
+.viber
+    background: url(../img/viber.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    width: 18px
+    height: 20px    
+    margin-left: 25px    
+
+.skype
+    background: url(../img/skype.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    width: 20px
+    height: 20px    
+    margin-left: 25px      
+
+.phone1,
+.phone2
+    background: url(../img/phone.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    width: 15px
+    height: 15px    
+    margin-left: 25px  
+    margin-top: 3px
+
+.email
+    background: url(../img/email.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+    width: 20px
+    height: 20px    
+    margin-left: 25px                          
+    
+.instagram:hover,
+.telegram:hover,
+.viber:hover,
+.skype:hover,
+.phone1:hover,
+.phone2:hover,
+.email:hover,
+    opacity: 0.5      
+
+.phone-number
+    font-family: 'Roboto', sans-serif
+    font-size: 1.1rem
+
+.phone-number,
+.email-adress
+    color: #fff
+    margin: 4px 10px 0 10px
+    font-size: 0.8rem
+
+@media screen and ( max-width: 768px )
+    .email,
+    .email-adress
+        display: none
+@media screen and ( max-width: 576px )
+    .header
+        height: 35px
+        &-socials
+            display: none
+        &-links 
+            margin: 0 auto    
+    .phone1
+        margin-left: 0
+        margin-right: 10px
+    .phone2
+        display: none
+    .phone-number
+        margin-left: 0
+        font-size: 0.6rem
+
+
